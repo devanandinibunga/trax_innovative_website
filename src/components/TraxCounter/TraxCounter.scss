@@ -1,0 +1,39 @@
+.trax-counter-container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    background-image: url('https://trax.acrothemes.com/bootstrap-v5/images/counter-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center 56.7px;
+    padding: 10% 0%;
+    color: white;
+}
+.trax-counter-left-container{
+    width: 25%;
+
+}
+.trax-counter-middle-container{
+    width: 40%;
+    // justify-self: center;
+    align-self: center;
+    padding: 2% 3%;
+    font-size: 18px;
+    font-weight: 200;
+}
+.trax-counter-right-container{
+    width: 25%;
+}
+.trax-counter-count{
+    font-size: 90px;
+    font-weight: 200;
+    line-height: 20px;
+    margin-top: 5%;
+}
+.trax-counter-caption{
+    // line-height: 100px;
+    margin-top: 15%;
+    font-size: 20px;
+}

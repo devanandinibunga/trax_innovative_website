@@ -1,0 +1,159 @@
+.pricing-offers-container{
+    background-color: #F6F7F8;
+    text-align: center;
+    padding: 5% 1%;
+    display: flex;
+    flex-direction: column;
+}
+
+.pricing-offers-segmented-btn{
+    width: 40%;
+    text-align: center;
+    align-self: center;
+    margin-bottom: 2%;
+}
+
+.ant-segmented-item{
+    // background-image: linear-gradient(to right,rgb(32, 125, 232),rgb(76, 235, 247));
+    padding: 1.5% 0%;
+    border-radius: 30px;
+    // background-color: white;
+}
+
+.ant-segmented-item.ant-segmented-item-selected{
+    background-image: linear-gradient(to right,rgb(32, 125, 232),rgb(76, 235, 247));
+    padding: 1.5% 0%;
+    border-radius: 30px;
+    // background-color: white;
+    // color: white;
+}
+.pricing-offers-plan-container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 1%;
+    background-color: #F6F7F8;
+}
+.pricing-offers-each-plan-container{
+    width: 25%;
+    padding: 3% 1% 4% 1%;
+    margin: 1.5%;
+    background-color: white;
+    // box-shadow:50px;
+    position: relative;
+    box-shadow: 0 0 10px rgb(0 0 0 / 12%);
+}
+.pricing-offers-each-pin-title{
+    font-size: 30px;
+    font-weight: 100;
+    color:#384141;
+    line-height: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+.pricing-offers-each-pin-para{
+    font-size: 20px;
+    line-height: 13px;
+}
+.pricing-offers-each-plan-container:hover{
+    background-color: #26313C;
+    color: white;
+    .each-plan-list-container{
+        color: white;
+    }
+    .icon-green{
+        color: white;
+    }
+    .icon-red{
+        color: white;
+    }
+    .pricing-offers-btn{
+        border: 1px solid white;
+        background-color: transparent;
+    }
+    .pricing-offers-each-pin-title{
+        color: white;
+    }
+    .pricing-offers-sale{
+        display: block;
+    }
+    .pricing-offers-percentage{
+        display: none;
+    }
+}
+.each-plan-list-container{
+    list-style-type: none;
+    text-align: left;
+    align-self:center;
+    // padding-left: 2%;
+    margin-left: 12%;
+    line-height: 35px;
+    font-size: 15px;
+    color: #808080;
+    font-weight: normal;
+    font-family: 'Open Sans', sans-serif;
+}
+.icon-green{
+    color: green;
+    font-size: 18px;
+    font-weight: 800;
+}
+.icon-red{
+    color: red;
+}
+.pricing-offers-title{
+    font-size: 35px;
+    line-height: 10px;
+    margin-bottom: 5%;
+    font-weight: 100;
+    font-family: 'Montserrat', sans-serif;
+}
+.pricing-offers-para{
+    font-size:15px ;
+    line-height: 10px;
+    color:#24CDD5;
+    margin-bottom: 3%;
+    font-family: 'Montserrat', sans-serif;
+}
+.pricing-offers-price{
+    font-size: 40px;
+    font-weight: 200;
+}
+.pricing-offers-btn{
+    width: 50%;
+    border: 0;
+    padding: 3% 1%;
+    background-color: #24CDD5;
+    color:white;
+    border-radius: 20px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif ;
+}
+.pricing-offers-bookmark-icon-container{
+    width:120px ;
+}
+.pricing-offers-bookmark-icon{
+    font-size: 65px;
+    width:80px ;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: red;
+    height: 60px;
+}
+.pricing-offers-sale{
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 17px;
+    padding: 2%;
+    color: white;
+}
+.pricing-offers-percentage{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 14px;
+    padding: 2%;
+    color: white;
+
+}

@@ -1,0 +1,158 @@
+
+.trax-header-container{
+    width: 100%;
+    // background-color: rgb(224, 224, 224);
+    // background-color: #F6F7F8;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    // padding: 1%;
+    box-sizing: border-box;
+    // position: absolute;
+    // top:8px;
+}
+
+// .nav-menu-links-container {
+//   width: 50%;
+// }
+
+.navbar-expand {
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.trax-header-image{
+    width: 60%;
+    margin:6px 0px 4px 30px;
+}
+
+.trax-header-side-containner{
+    list-style: none;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: 200;
+}
+
+.ant-drawer-wrapper-body{
+    background-image:linear-gradient(to right, #5192e1 0%, #23ced5 71%) ; 
+    line-height: 50px;   
+}
+
+.ant-btn{
+    border: 0;
+    border-radius: 50%;
+    // background-image:linear-gradient(to right, #5192e1 0%, #23ced5 51%, #5192e1 100%) ; 
+    box-shadow: 0 4px 4px -4px rgb(0 0 0 / 15%);
+    font-size: 20px;
+    color: white;
+    justify-content: center;
+    background-color: transparent;
+    // padding: 1%;
+}
+.hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 35px;
+    height: 25px;
+    cursor: pointer;
+    position: relative;
+    margin-right: 15px;
+    // color: black;
+  }
+  .hamburger span {
+    align-self: flex-end;
+    height: 3px;
+    width: 100%;
+    background: black;
+  }
+  .hamburger .meat {
+    width: 75%;
+    transition: all 200ms ease-in-out;
+  }
+  .hamburger .bottom-bun {
+    width: 50%;
+    transition: all 400ms ease-in-out;
+  }
+  .hamburger:hover span {
+    width: 100%;
+  }
+  .hamburger:hover .top-bun {
+    animation: burger-hover 1s infinite ease-in-out alternate;
+  }
+  .hamburger:hover .meat {
+    animation: burger-hover 1s infinite ease-in-out alternate forwards 200ms;
+  }
+  .hamburger:hover .bottom-bun {
+    animation: burger-hover 1s infinite ease-in-out alternate forwards 400ms;
+  }
+  .navbar .nav-item .dropdown-menu {
+    display: none;
+  }
+
+  .navbar .nav-item:hover .dropdown-menu {
+    display: block;
+
+  }
+  .dropdown-menu{
+    margin-right: 10px;
+  }
+  .dropdown-item{
+    font-size: 15px;
+  }
+  .navbar .nav-item .dropdown-menu {
+    margin-top: 0%;
+  }
+
+  .nav-link{
+    margin-right: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .menu {
+    margin-left: 40%;
+  }
+
+  p {
+    margin: 0;
+    margin-right: 5%;
+  }
+
+  .icon{
+    font-size: 1.125em;
+  }
+
+  .trax-header-middle-container{
+    display: flex;
+    float: right;
+    justify-content: space-between;
+  }
+  .trax-header-right-container{
+    display: flex;
+    justify-content: space-between;
+
+  }
+  #pageDropDown{
+    position: absolute;
+    top:25px;
+    left:-300px;
+  }
+
+  #blogDropDown{
+    position: absolute;
+    top:25px;
+    left:-50px;
+  }
+  div.ant-collapse,div .ant-collapse-item{
+    background: transparent;
+  }
+  .trax-header-drawer{
+    color: white;
+  }

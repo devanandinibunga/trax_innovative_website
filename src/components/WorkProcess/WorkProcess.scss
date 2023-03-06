@@ -1,0 +1,57 @@
+.work-process-container {
+    background-color: #212529;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 2% 0%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.work-process-main-container{
+    display: flex;
+    list-style: none;
+    padding: 2% 3%;
+    // justify-content: center;
+    // align-items: center;
+}
+.work-process-each-container{
+    width: 20%;
+    text-align: center;
+    padding: 1%;
+    /* z-index: 1; */
+}
+.work-progress-title{
+    font-size: 45px;
+    margin-bottom: 5%;
+    line-height: 10px;
+    font-weight: 300;
+}
+.work-progress-caption{
+    font-size: 25px;
+    margin-bottom: 4%;
+    line-height: 10px;
+    font-weight: 300;
+}
+.work-process-each-id-span{
+    border: 1px solid white;
+    width: 200px;
+    text-align: center;
+    padding: 15%;
+    font-size: 24px;
+    font-weight: 600;
+    /* position: relative;
+    z-index: 1; */
+}
+
+.work-process-each-container:hover{
+    .work-process-each-id-span{
+        background-image: linear-gradient(to right,rgb(32, 125, 232),rgb(76, 235, 247));
+    }
+}
+
+.work-process-each-title{
+    margin-top: 20%;
+    line-height: 30px;
+}

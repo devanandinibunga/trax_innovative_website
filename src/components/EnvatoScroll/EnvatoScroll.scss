@@ -1,0 +1,36 @@
+.trax-scroll-container{
+    margin: 6% 0%;
+    width: 100%;
+    /* padding: 1%; */
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+}
+.trax-scroll-text{
+    overflow: hidden;
+    position: absolute;
+    font-size: 1.5em;
+    position: absolute;
+    white-space: nowrap;
+    /* top: 92vh; */
+    white-space: nowrap;
+    /* display: inline-block;
+    margin-right: 50px;
+    animation: title 6s infinite linear; */
+    /* width: 100%; */
+    /* font-size: 30px; */
+    /* padding: 0% 0% 0% 2%; */
+
+}
+.trax-scroll-text > * {
+    display: inline-block;
+    margin-right: 50px;
+    /* margin-left: 50px; */
+    animation: title 5s infinite;
+    /* animation-delay: 20s; */
+    /* width: 100%; */
+}
+@keyframes title {
+    0% {transform: translateX(0);}
+  100% {transform: translateX(-233px);}
+  }

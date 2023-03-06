@@ -1,0 +1,86 @@
+.trax-footer-container{
+    /* width: 100%; */
+    background-color: #26313C;
+    color: white;
+    display: flex;
+    font-family: "Open-Sans",sans-serif;
+    padding-top: 7%;
+    position: relative;
+    // z-index: 2;
+}
+.trax-footer-contact-container{
+    width: 24%;
+    padding: 3% 2% 3% 2%;
+    font-size: 15px;
+
+}
+.trax-footer-contact-icon-address-container{
+    display: flex;
+    align-items: center;
+
+}
+.trax-footer-contact-address-container{
+    display: flex;
+    flex-direction: column;
+    line-height: 20px;
+    align-self: center;
+    margin-left: 1%;
+}
+.trax-footer-icon{
+    width: 10%;
+    height: 10%;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 5%;
+}
+.trax-footer-contact-icons-container{
+    margin-top: 8%;
+    /* line-height: 40px; */
+}
+.trax-footer-contact-icons{
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 2%;
+    margin: 2%;
+    font-size: 20px;
+}
+.trax-footer-latest-news-container{
+    width: 24%;
+    padding: 1% 2%;
+    font-size: 15px;
+    font-weight: 200;
+}
+.trax-footer-latest-news-title{
+    font-size: 30px;
+    margin-top: 5%;
+}
+.trax-footer-latest-news{
+    line-height: 15px;
+    font-weight: 200;
+    font-size: 15px;
+}
+.trax-footer-services-container{
+    width: 24%;
+    padding: 2% 2%;
+    /* font-size: 25px; */
+}
+.trax-footer-services-title{
+    font-size: 30px;
+    font-weight: 500;
+
+}
+.trax-footer-each-service-container{
+    /* display: flex; */
+    font-size: 20px;
+    margin-bottom: 5%;
+    line-height: 15px;
+    font-weight: 200;
+
+}
+.trax-footer-business-hours-container{
+    width: 23%;
+    padding: 2% 1% 2% 0%;
+}
+/* .trax-footer-timings::before{
+    ---
+} */

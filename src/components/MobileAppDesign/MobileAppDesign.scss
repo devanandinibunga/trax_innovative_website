@@ -1,0 +1,142 @@
+.mobile-app-design-container{
+    background-color: white;
+    padding: 2% 0% 7% 0%;
+
+}
+.mobile-app-design-details-container{
+    display: flex;
+    /* padding: 2%; */
+    padding: 2% 0%;
+    width: 100%;
+    justify-content: space-around;
+
+}
+.mobile-app-design-details-left-container{
+    display: flex;
+    flex-direction: column;
+    padding: 2% 0% 2% 4%;
+    width: 48%;
+    line-height: 10px;
+
+}
+.mobile-app-design-details-right-container{
+    padding: 2% 4% 2% 0%;
+    width: 48%;
+    line-height: 30px;
+}
+.mobile-app-design-features-container{
+    display: flex;
+    /* padding:2%; */
+    width: 100%;
+    justify-content: space-around;
+}
+.mobile-app-design-features-left-container{
+    width: 28%;
+    padding-left:2%;
+    padding-top:2%;
+    align-self: center;
+}
+.mobile-app-design-features-image-container{
+    width: 20%;
+    text-align: center;
+    background-image: url('https://www.pngitem.com/pimgs/m/478-4787032_ja-phone-frame-mobile-phone-hd-png-download.png');
+    // background-image: url("https://trax.acrothemes.com/bootstrap-v5/images/iphone-slide-lock.jpg");
+    background-size: cover;
+    // background-color: pink;
+    height: 485px;
+    background-repeat: no-repeat;
+    /* height: auto; */
+    /* padding: 0% 2%; */
+    position: relative;
+    // margin: 1%;
+}
+.mobile-app-design-features-image{
+    width: 81%;
+    height: 442px;
+    /* padding: 0% 2%; */
+    position: absolute;
+    left:25px;
+    top:26px;
+    border-radius: 15px;
+}
+.mobile-app-design-features-right-container{
+    width: 28%;
+    padding-left:2%;
+    padding-top:2%;
+    align-self: center;
+}
+.mobile-app-design-features-left-card{
+    border: 1px solid #24cdd5;
+    padding: 2%;
+    margin-bottom: 7%;
+    text-align: center;
+    color: #808080;
+
+}
+.mobile-app-design-features-right-card{
+    border: 1px solid #24cdd5;
+    padding: 2%;
+    margin-bottom: 7%;
+    /* margin: 1%; */
+    text-align: center;
+    color: #808080;
+}
+.mobile-app-design-icon{
+    font-size: 50px;
+    margin-top: 1%;
+    color: #24cdd5;
+    transition: transform .2s;
+}
+.mobile-app-design-title{
+    color: #808080;
+    font-weight: 400;
+    font-size: 30px;
+}
+.mobile-app-design-features-left-card:hover{
+    .mobile-app-design-title{
+        background:linear-gradient(to right,rgb(32, 125, 232),rgb(76, 235, 247));
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+    .mobile-app-design-icon{
+        transform: scale(1.2);
+    }
+}
+
+.mobile-app-design-features-right-card:hover{
+    .mobile-app-design-title{
+        background:linear-gradient(to right,rgb(32, 125, 232),rgb(76, 235, 247));
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+    .mobile-app-design-icon{
+        // font-size: 60px;
+        transform: scale(1.2);
+    }
+}
+
+.mobile-app-design-feature-image-power-btn{
+    border-radius: 50%;
+    border: 3px solid black;
+    position: absolute;
+    bottom: 25px;
+    left: 42%;
+    // display: none;
+    // right: 0;
+    // background-color: #008CBA;
+    background-color: transparent;
+    overflow: hidden;
+    width: 15%;
+    opacity: 0;
+    height: 0;
+    transition: .2s ease;
+}
+.mobile-app-design-features-image-container:hover{
+    .mobile-app-design-feature-image-power-btn{
+        height: 8%;
+        // display: block;
+        // transform: ;
+        opacity: 1;
+
+    }
+}
